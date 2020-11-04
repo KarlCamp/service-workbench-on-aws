@@ -46,6 +46,7 @@ pushd "$SOLUTION_DIR/ui" > /dev/null
 
 # first we package locally (to populate .env.local only)
 printf "\nPackaging website UI\n\n"
+$EXEC npx browserslist@latest --update-db
 $EXEC sls package-ui --local=true -s "$STAGE"
 # then we package for deployment
 # (to populate .env.production and create a build via "npm build")
