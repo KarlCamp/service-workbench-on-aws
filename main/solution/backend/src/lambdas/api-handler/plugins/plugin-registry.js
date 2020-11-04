@@ -20,7 +20,6 @@ const baseWfServicesPlugin = require('@aws-ee/base-workflow-api/lib/plugins/serv
 const baseWfRoutesPlugin = require('@aws-ee/base-workflow-api/lib/plugins/routes-plugin');
 const bassRaasServicesPlugin = require('@aws-ee/base-raas-rest-api/lib/plugins/services-plugin');
 const baseRaasRoutesPlugin = require('@aws-ee/base-raas-rest-api/lib/plugins/routes-plugin');
-const baseRaasCfnTemplatesPlugin = require('@aws-ee/base-raas-cfn-templates/dist/plugins/cfn-templates-plugin');
 const baseRaasUserAuthzPlugin = require('@aws-ee/base-raas-services/lib/user/user-authz-plugin');
 const environmentTypeRoutesPlugin = require('@aws-ee/environment-type-mgmt-api/lib/plugins/routes-plugin');
 const environmentTypeServicesPlugin = require('@aws-ee/environment-type-mgmt-services/lib/plugins/services-plugin');
