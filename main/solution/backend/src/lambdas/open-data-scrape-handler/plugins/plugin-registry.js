@@ -17,7 +17,6 @@ const baseAuditPlugin = require('@aws-ee/base-services/lib/plugins/audit-plugin'
 const baseServicesPlugin = require('@aws-ee/base-api-handler/lib/plugins/services-plugin');
 const bassRaasServicesPlugin = require('@aws-ee/base-raas-rest-api/lib/plugins/services-plugin');
 const baseWfServicesPlugin = require('@aws-ee/base-workflow-api/lib/plugins/services-plugin');
-const baseRaasCfnTemplatesPlugin = require('@aws-ee/base-raas-cfn-templates/dist/plugins/cfn-templates-plugin');
 const baseRaasUserAuthzPlugin = require('@aws-ee/base-raas-services/lib/user/user-authz-plugin');
 const baseRaasSchemaPlugin = require('@aws-ee/base-raas-services/lib/plugins/schema-plugin');
 const environmentTypeServicesPlugin = require('@aws-ee/environment-type-mgmt-services/lib/plugins/services-plugin');
